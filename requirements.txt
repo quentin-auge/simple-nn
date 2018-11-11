@@ -2,4 +2,3 @@ keras
 matplotlib
 numpy
 sympy
-

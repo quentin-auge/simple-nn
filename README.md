@@ -16,7 +16,7 @@ Weights search
 
 ![](images/regression_weights_search.png)
 
-### [classification_sgd.ipynb](regression_sgd.ipynb)
+### [classification_sgd.ipynb](classification_sgd.ipynb)
 
 Perform classification using a single layer perceptron.
 

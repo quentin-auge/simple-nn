@@ -69,24 +69,26 @@ class MLP:
         self.errors = []
         self.init_weights()
 
-    def fit(self, x, y, batch_size, eta, epochs=1, verbose=True):
+    def fit(self, x, y, epochs, batch_size=1, eta=0.1, verbose=False):
         """
         Train the neural network.
 
         Arguments:
             x (numpy array): the dataset
             y (numpy array): the labels
-            batch_size (int): the size of the mini-batches
-            eta (float): the learning rate
             epochs (int): the number of epochs
-            verbose (bool): whether to print error at each epoch while training
+            batch_size (int, optional): the size of the mini-batches
+            eta (float, optional): the learning rate
+            verbose (bool, optional): whether to print error at each epoch while training
 
         Returns:
-            A list of float errors by epoch.
+            Float error on the training set.
 
-        Note:
+        Notes:
             This function can be called multiple times. Learning is resumed every time.
             To reset the network, use ``self.reset()``.
+
+            Errors for each epoch are accumulated in ``self.errors``.
         """
 
         if self.epoch == 0:
@@ -105,7 +107,7 @@ class MLP:
 
             self.epoch += 1
 
-        return self.errors
+        return error
 
     def fit_epoch(self, x, y, batch_size, eta):
         batches = self.get_batches(x, y, batch_size)

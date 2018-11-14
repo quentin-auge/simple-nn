@@ -34,6 +34,12 @@ Separate the XOR problem using a multi-layer perceptron.
 
 ![](images/xor.png)
 
+### [three_donuts.ipynb](three_donuts.ipynb)
+
+Separate three donuts using a multi-layer perceptron.
+
+![](images/three_donuts.png)
+
 ## Installation notes
 
 Python packages to install are listed in `requirements.txt`. If you want to run the cells using [Keras](https://keras.io/), make sure to [configure its backend](https://keras.io/backend/) appropriately.

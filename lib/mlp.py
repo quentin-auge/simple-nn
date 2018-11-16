@@ -6,7 +6,7 @@ import numpy as np
 
 class MLP:
     """"
-    Multi-layer perceptron, from scratch.
+    Multilayer perceptron, from scratch.
 
     Weights are learned using back-propagation with mini-batches gradient descent.
     Activation function is the sigmoid function. Loss function is the mean squared error.

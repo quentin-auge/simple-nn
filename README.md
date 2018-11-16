@@ -30,13 +30,13 @@ Weights search
 
 ### [xor_mlp.ipynb](xor_mlp.ipynb)
 
-Separate the XOR problem using a multi-layer perceptron.
+Separate the XOR problem using a multilayer perceptron.
 
 ![](images/xor.png)
 
 ### [three_donuts_mlp.ipynb](three_donuts_mlp.ipynb)
 
-Separate three donuts using a multi-layer perceptron.
+Separate three donuts using a multilayer perceptron.
 
 ![](images/three_donuts.png)
 

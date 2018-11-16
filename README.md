@@ -34,7 +34,7 @@ Separate the XOR problem using a multi-layer perceptron.
 
 ![](images/xor.png)
 
-### [three_donuts.ipynb](three_donuts.ipynb)
+### [three_donuts_mlp.ipynb](three_donuts_mlp.ipynb)
 
 Separate three donuts using a multi-layer perceptron.
 

@@ -1,8 +1,10 @@
-# Playing with stochastic gradient descent
+# Playing with gradient descent
 
 ## Notebooks
 
-The following notebooks of gradual difficulty are available.
+**Note**: The last notebooks use a custom implementation of a multilayer perceptron written from scratch (in [lib/mlp.py](lib/mlp.py)). The online book [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) has been of tremendous help to unravel the equations of the backpropagation algorithm.
+
+The following notebooks of increasing difficulty are available.
 
 ### [two_points_sgd.ipynb](two_points_sgd.ipynb)
 
@@ -46,6 +48,22 @@ Separate donuts using a multilayer perceptron.
 
 ![](images/six_donuts.png)
 
+### [mnist_mlp.ipynb](mnist_mlp.ipynb)
+
+Recognize handwritten digits using a multilayer perceptron.
+
+Using [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
+
+##### Correct predictions that are the most uncertain
+
+![](images/mnist_correct.png)
+
+##### Incorrect predictions that were the most certain
+
+![](images/mnist_incorrect.png)
+
 ## Installation notes
 
-Python packages to install are listed in `requirements.txt`. If you want to run the cells using [Keras](https://keras.io/), make sure to [configure its backend](https://keras.io/backend/) appropriately.
+The required python packages to install to run the notebooks are listed in `requirements.txt`.
+
+If you want to run the cells using [Keras](https://keras.io/), make sure to [configure its backend](https://keras.io/backend/) appropriately.

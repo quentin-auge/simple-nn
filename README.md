@@ -1,8 +1,10 @@
 # Playing with gradient descent
 
-## Notebooks
+A collection of notebooks leveraging gradient descent to fit a variety of simple datasets. From scratch, for fun.
 
-**Note**: The last notebooks use a custom implementation of a multilayer perceptron written from scratch (in [lib/mlp.py](lib/mlp.py)). The online book [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) has been of tremendous help to unravel the equations of the backpropagation algorithm.
+**Note**: Some of the notebooks use a homemade implementation of a multilayer perceptron (in [lib/mlp.py](lib/mlp.py)). The online book [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) has been of tremendous help to unravel the equations of the backpropagation algorithm.
+
+## Notebooks
 
 The following notebooks of increasing difficulty are available.
 
@@ -50,7 +52,7 @@ Separate donuts using a multilayer perceptron.
 
 ### [mnist_mlp.ipynb](mnist_mlp.ipynb)
 
-Recognize handwritten digits using a multilayer perceptron.
+Recognize handwritten digits using a multilayer perceptron with 97.5% accuracy.
 
 Using [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
 

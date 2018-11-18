@@ -56,13 +56,21 @@ Recognize handwritten digits using a multilayer perceptron with 97.5% accuracy.
 
 Using [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
 
-##### Correct predictions that are the most uncertain
+##### Correct predictions that were the most certain for each class
 
-![](images/mnist_correct.png)
+![](images/mnist_most_correct.png)
+
+##### Correct predictions that were the least certain
+
+![](images/mnist_least_correct.png)
 
 ##### Incorrect predictions that were the most certain
 
-![](images/mnist_incorrect.png)
+![](images/mnist_most_incorrect.png)
+
+##### Incorrect predictions that were the least certain
+
+![](images/mnist_least_incorrect.png)
 
 ## Installation notes
 

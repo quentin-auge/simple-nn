@@ -2,6 +2,8 @@
 
 A collection of notebooks leveraging gradient descent to fit a variety of simple datasets. From scratch, for fun.
 
+They require Python >= 3.5.
+
 **Note**: Some of the notebooks use a homemade implementation of a multilayer perceptron (in [lib/mlp.py](lib/mlp.py)). The online book [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) has been of tremendous help to unravel the equations of the backpropagation algorithm.
 
 ## Notebooks
@@ -74,6 +76,6 @@ Using [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
 
 ## Installation notes
 
-The required python packages to install to run the notebooks are listed in `requirements.txt`.
+The required python packages to install to run the notebooks are listed in `requirements.txt`. Use Python >= 3.5.
 
 If you want to run the cells using [Keras](https://keras.io/), make sure to [configure its backend](https://keras.io/backend/) appropriately.
